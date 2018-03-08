@@ -1,0 +1,16 @@
+Address already in use
+bringing down zmq device
+Traceback (most recent call last):
+  File "forwarder_device.py", line 29, in <module>
+    main()
+  File "forwarder_device.py", line 25, in main
+    backend.close()
+UnboundLocalError: local variable 'backend' referenced before assignment
+Address already in use
+bringing down zmq device
+Traceback (most recent call last):
+  File "forwarder_device.py", line 29, in <module>
+    main()
+  File "forwarder_device.py", line 25, in main
+    backend.close()
+UnboundLocalError: local variable 'backend' referenced before assignment
